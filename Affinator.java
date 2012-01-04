@@ -12,6 +12,7 @@ public class Affinator {
 		abbildung = new AffAbb(1.0, 0.0, 0.0, 1.0, 0.0, 0.0);
 		
 		JFrame j = new JFrame(Spr.get("affinator"));
+		j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		j.setSize(800,620);
 		
 		felder = new JTextField[6];
